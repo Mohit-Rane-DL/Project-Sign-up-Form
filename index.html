@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sign-up-form">
+        <div class="sign-up-form-left">
+            <img class="leaf" src="halie-west-25xggax4bSA-unsplash.jpg" alt="">
+        </div>
+        <div class="sign-up-form-right">
+            <div class="intro">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </div>
+            <div class="sign-up">
+                <p>Let's do this!</p>
+                <form action="" method="post">
+                    <div class="details">
+                        <div class="details-left">
+                            <p>
+                                <label for="first-name">FIRST NAME</label><br>
+                                <input type="text" id="first-name" name="first_name" placeholder="John" required>
+                            </p>
+                            <p>
+                                <label for="mail">EMAIL</label><br>
+                                <input type="email" id="mail" name="email" placeholder="example@gmail.com" required>
+                            </p>
+                            <p>
+                                <label for="pwd">PASSWORD</label><br>
+                                <input type="password" id="pwd" name="password" placeholder="123456" minlength="3" maxlength="6" required>
+                            </p>
+                        </div>
+                        <div class="details-right">
+                            <p>
+                                <label for="last-name">LAST NAME</label><br>
+                                <input type="text" id="last-name" name="last_name" placeholder="Wick">
+                            </p>
+                            <p>
+                                <label for="phone-number">PHONE NUMBER</label><br>
+                                <input type="tel" id="phone-number" name="phone_number" placeholder="78334...." required>
+                            </p>
+                            <p>
+                                <label for="confirm-pwd">CONFIRM PASSWORD</label><br>
+                                <input type="password" id="confirm-pwd" name="confirm_password" placeholder="123456" minlength="3" maxlength="6" required>
+                            </p>
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                    <p class="outro">Already have an account? <a href="#">Log in</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
